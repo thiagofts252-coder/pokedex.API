@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom,#6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokédex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon1{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemon2{
+    position: absolute;
+    font-weight: 600;
+    color:black;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 22px);
+}
+
+.pokemon_name{
+    color: rgb(3, 0, 0);
+    text-transform:capitalize;
+}
+
+.form{
+    position: absolute;
+    background-color:black;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.pokemon3{
+      position: absolute;
+      font-weight: 600;
+      color: #000;
+      top: 70%;
+      right: 60%;
+     font-size: clamp(6px, 5vw, 22px);
+    
+}
+
+.pokemon4{
+    position: absolute;
+      font-weight: 600;
+      color: #000;
+      top: 76%;
+      right: 59%;
+     font-size: clamp(6px, 5vw, 22px);
+}
+
+.pokemon5{
+    position: absolute;
+      font-weight: 600;
+      color: #000;
+      top: 64%;
+      right: 63%;
+     font-size: clamp(8px, 5vw, 22px);
+}
+
+.pokemon6{
+    position: absolute;
+    font-weight: 600;
+    color: #000;
+    top: 70%;
+    right: 20%;
+    font-size: clamp(8px, 5vw, 22px);
+}
+.pokemon8{
+    position: absolute;
+    font-weight: 600;
+    color: #000;
+    top: 64%;
+    right: 20%;
+    font-size: clamp(8px, 5vw, 22px);
+}
+
+.pokemon9{
+    position: absolute;
+    font-weight: 600;
+    color: #000;
+    top: 85%;
+    right: 94;
+    font-size: clamp(8px, 5vw, 14px);
+
+}
+
+.seen{
+    color: rgb(3, 0, 0);
+    text-transform:capitalize;}
+
+
+.caught{
+    color: rgb(3, 0, 0);
+    text-transform:capitalize; }
+
+
+.weight{
+    color: rgb(3, 0, 0);
+    text-transform:capitalize;
+}
+
+.height{
+    color: rgb(3, 0, 0);
+    text-transform:capitalize;
+}
